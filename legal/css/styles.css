@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.titulo{
+    font-size: 42px;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+body{
+    background-color: #e6e6e6;
+    font-family: sans-serif;
+}
+
+.margen {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.header{
+    height: 8rem;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background: #d3d3d3;
+    z-index: 10000;
+    top: 0;
+}
+.logo{
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+.img-logo{
+    width: 85%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.nav{
+    position: relative;
+    width: 70%;
+    float: right;
+    height: 100%;
+}
+nav{
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #90d1d8;
+    font-size: 18px;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #192A56;
+    text-transform: uppercase;
+    font-family: normal;
+    font-size: 13px;
+}
+
+nav ul li a:hover{
+    color: #44588d;
+}
+
+.main{
+    position: relative;
+    top: 8rem;
+    width: 100%;
+}
+
+
+.div-parallex{
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.img-inicio{
+    /* The image used */
+    background-image: url("../img/edificios_cdmx.jpeg");
+    color: #fff;
+}
+
+.img-abogados{
+    /* The image used */
+    background-image: url("../img/team_abogados.png");
+}
+
+.img-contacto{
+    /* The image used */
+    background-image: url("../img/estructura.jpg");   
+}
+
+.left-background{
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 43%;
+    background-color:rgba(211,211,211,0.5);
+}
+
+.transparencia-inicio{
+    color: #fff;
+}
+.color-principal{
+    color: #192A56;
+}
+.background-title{
+    position: absolute;
+    height: 100%;
+    display: inline-block;
+    width: 32%;
+}
+
+.section-title{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.area-practica {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.practica{
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    color: #192A56;
+    height: 750px;
+}
+
+.list-practica{
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+}
+.list-practica ul{
+    list-style: none;
+}
+.list-practica ul li{
+    width: 50%;
+    height: 170px;
+    float: left;
+}
+
+.list-practica ul li h3{
+    display: inline-block;
+}
+.list-practica ul li::before{
+    content: "⯀";
+    color: #41b7c4;
+    width: 1em;
+    margin-left: -1em;
+    float: inherit;
+}
+
+.vision{
+    background-color: #192A56;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 1.5rem;
+    padding: 10.5rem 1.5rem;
+}
+
+.vision span{
+    padding-top: 2.5rem;
+}
+
+.vision p{
+    padding-bottom: 1.5rem;
+}
+
+
+.abogados{
+    text-align: center;
+    padding: 9.5rem 0;
+}
+
+.title-abogados{
+    display: block;
+    padding-bottom: 3.5rem;
+}
+.card-abogado{
+    display: inline-block;
+    width: 25%;
+}
+
+.card-abogado img {
+    display: block;
+    width: 75%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.card-abogado span{
+    display: block;
+    color: #192A56;
+    padding: 0.5rem 0;
+}
+
+.name-abogado {
+    text-transform: uppercase;
+    line-height: 1.7rem;
+}
+
+.color-socio{
+    color: #999898;
+}
+
+hr.color-socio{
+    width: 70%;
+    background-color: #999898;
+    margin: auto;
+    height: 1px;
+}
+
+.contacto{
+    min-height: 600px;
+    color: #fff;
+}
+
+.section-datos{
+    width: 60%;
+    float: right;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+.datos-contacto{
+    padding: 2.5rem;
+    position: relative;
+}
+
+.datos-contacto div {
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.form-datos input {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 14px;
+    padding: 3px 3px 6px 24px;
+    margin: 0 0 6px 0;
+    display: inline-block;
+}
+.form-text textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px 3px 3px 24px;
+    margin: 0 0 7px 0;
+    font-family: sans-serif;
+    height: 100px;
+}
+
+input[type="submit"] {
+    float: right;
+    width: 110px;
+    height: 30px;
+    background: #446380;
+    color: #fff;
+}
+
+.map{
+    width: 100%;
+}
+
+.title-direction {
+    width: 30%;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.ubicacion{
+    color: #192A56;
+    display: none;
+}
+
+.ubicacion p{
+    line-height: 1.5em;
+    font-size: 14px;  
+}
+
+.map-google{
+    border-style: solid;
+    border-color: white;
+}
+
+.footer {
+    display: hidden;
+    padding: 2.5rem 0;
+}
+
+.footer p{
+    width: 30%;
+    display: inline-block;
+}
+
+.footer ul{
+    width: 70%;
+    list-style: none;
+    float: right;
+}
+
+.footer ul li{
+    display: inline;
+    padding: 0 10px;
+}
+
+.arriba{
+    background-color: #192A56;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+
+.mobil-hamburguer{
+    display: none;
+}
+.title-map{
+    display: inline-block;
+    margin: 0;
+}
+.close-map{
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        height: 2.5rem;
+        width: 2.5rem;
+        border-style: solid;
+        text-align: center;
+        border-width: 1px;
+        font-size: 22px;
+        cursor: pointer;
+        color: #192A56;
+        border-color: #192A56;
+        border-radius: 5px;
+        float: right;
+        margin-right: 10px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .margen{
+        width: 100%;
+    }
+    .header{
+        display: contents;
+    }
+    header {
+        width: 100%;
+        position: relative;
+        background: #d3d3d3;
+        height: 4rem;
+    }
+    .logo {
+        width: 50%;
+        display: inline-block;
+        position: relative;
+    }
+    .img-logo {
+        width: 85%;
+    }
+    .nav{
+        background: rgb(0,0,0, 0.6);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        display: none;
+    }
+    nav {
+        display: none;
+        overflow: hidden;
+        width: 75%;
+        background: #d3d3d3;
+        position: fixed;
+        left: 0;
+        height: 100%;
+        z-index: 100000;
+    }
+    nav ul {
+        list-style: none;
+        margin: auto;
+        position: absolute;
+        top: 20%;
+    }
+    nav ul li {
+        display: inline;
+        float: none;
+    }
+    nav ul li a {
+    padding: 25px 40px;
+    display: block;
+    text-transform: uppercase;
+    font-family: normal;
+    font-size: 16px;
+    }
+    .main{
+        top: 0;
+    }
+    .div-parallex {
+        min-height: 550px;
+        background-attachment: initial;
+    }
+    .left-background {
+        display: none;
+    }
+    .background-title{
+        width: 100%;
+        position: relative;
+    }
+    .background-title-mobile{
+        width: 100%;
+        position: absolute;
+    }
+    .section-title {
+        width: 100%;
+        background-color: rgba(211,211,211,0.5);
+        padding: 14% 0px;
+        position: relative;
+        transform: initial;
+    }
+    .section-title-mobile{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .titulo {
+        font-size: 31px;
+    }
+
+    .practica{
+        display: contents;
+    }
+
+    .area-practica{
+        top: 0;
+        transform: translateY(0);
+    }
+    .list-practica{
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+    .list-practica ul li {
+        display: inline;
+        width: 75%;
+        padding-left: 25px;
+    }
+    .card-abogado{
+        width: 75%;
+    }
+    .section-datos{
+        display: contents;
+    }
+
+    .datos-contacto div {
+        display: contents;
+    }
+    .datos-contacto {
+        padding: 0.9rem;
+    }
+
+    input[type = "submit"]{
+        position: relative;
+        display: block;
+        width: 100%;
+        float: initial;
+    }
+
+    .mobil-hamburguer{
+        position: absolute;
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        height: 2.5rem;
+        width: 2.5rem;
+        border-style: solid;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 83%;
+        border-radius: 5px;
+        text-align: center;
+        border-width: 1px;
+        font-size: 22px;
+        cursor: pointer;
+        color: #fff;
+        border-color: #fff;
+        z-index: 1000;
+    }
+
+    .mobil-hamburguer span{
+        line-height: 7px;
+        cursor: pointer;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {...}*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {...}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {...}*/
