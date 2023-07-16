@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 13.86">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 6.69px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #2b3959;
+        font-family: MontserratAlt1-SemiBold, Montserrat-Alt1;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        font-size: 6.84px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(.31 5.68) scale(.75 1)"><tspan x="0" y="0">CSGM</tspan></text>
+  <text class="cls-2" transform="translate(0 12.06) scale(.61 1)"><tspan x="0" y="0">GROUP</tspan></text>
+</svg>
