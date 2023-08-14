@@ -960,6 +960,10 @@ section {
   line-height: 0;
 }
 
+.icon-legal {
+  line-height: 1 !important;
+}
+
 .services .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
