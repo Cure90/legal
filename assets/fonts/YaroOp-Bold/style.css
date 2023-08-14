@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Yaro';
+    src: local('Yaro Op Bold'), local('Yaro-Op-Bold'),
+        url('YaroOp-Bold.woff2') format('woff2'),
+        url('YaroOp-Bold.woff') format('woff'),
+        url('YaroOp-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
