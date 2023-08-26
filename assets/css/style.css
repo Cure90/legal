@@ -546,6 +546,7 @@ section {
 
 .section-title {
   padding-bottom: 40px;
+  text-align: left;
 }
 
 .section-title h2 {
@@ -834,28 +835,34 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #f0f4f8;
+  background: #f0f0f0;
   padding: 15px 0;
   text-align: center;
 }
 
-.clients img {
-  max-width: 45%;
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-  filter: grayscale(100);
+.clients .testimonial-item {
+  text-align: center;
+  height: 250px;
 }
 
-.clients img:hover {
-  filter: none;
-  transform: scale(1.15);
+.clients img {
+  max-width: 15%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 20px 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @media (max-width: 768px) {
   .clients img {
-    max-width: 40%;
+    max-width: 60%;
   }
+  .clients img {
+  filter: none;
+}
+  
 }
 
 /*--------------------------------------------------------------

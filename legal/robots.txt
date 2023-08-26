@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+https://legal.csgmgroup.com.mx/sitemap.xml
