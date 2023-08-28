@@ -5,7 +5,7 @@
     font-family: "Montserrat-Alt1";
     font-weight: 100;
     font-style: normal;
-    src: url("../fonts/montserrat_alt1/../fonts/montserrat_alt1/Montserrat-Alt1-Thin.woff2") format("woff2"),
+    src: url("../fonts/montserrat_alt1/Montserrat-Alt1-Thin.woff2") format("woff2"),
          url("../fonts/montserrat_alt1/Montserrat-Alt1-Thin.woff") format("woff");
 }
 

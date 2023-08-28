@@ -1,2 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /legal/
+Disallow: /dev/
+
+Sitemap: https://csgmgroup.com.mx/sitemap.xml
