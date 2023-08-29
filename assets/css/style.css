@@ -1282,6 +1282,30 @@ section {
 
 .team .member .pic {
   overflow: hidden;
+  height: 220px;
+}
+
+.legal {
+  background: #d3d3d3;
+}
+
+.mkt-publicis {
+  background: #1f4349;
+}
+
+.logistic {
+  background: #101c13;
+}
+
+.building {
+  background: #585858;
+}
+
+.team .member .pic img{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .team .member .member-info {
@@ -1343,9 +1367,15 @@ section {
   margin: 0 2px;
 }
 
+
+
 @media (max-width: 992px) {
   .team .member {
     margin-bottom: 110px;
+  }
+
+  .team .member .pic {
+    height: 240px;
   }
 }
 
