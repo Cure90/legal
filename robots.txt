@@ -1,5 +1,8 @@
 User-agent: *
 Disallow: /legal/
 Disallow: /dev/
+Disallow: /constructora/
+Disallow: /lca/
+Disallow: /cvpym/
 
 Sitemap: https://csgmgroup.com.mx/sitemap.xml
