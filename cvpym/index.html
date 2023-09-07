@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVP&M | CSGM Group</title>
+    <style>
+        .section-img{
+            width: 900px;
+            position: absolute;
+            left: 50%;
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+        
+        .section-img img{
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .section-img{
+                width: 100%;
+                padding: 20px;
+                height: 750px;
+            }
+            .img-mobile{
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="section-img">
+        <img class="img-mobile" src="cvpym.png" alt="">
+    </section>
+</body>
+</html>
